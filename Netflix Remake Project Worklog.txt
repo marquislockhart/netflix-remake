@@ -1,0 +1,9 @@
+Resources:
+SwiperJS: (https://swiperjs.com/)
+Netflix Home Page Carousel: (https://www.youtube.com/watch?v=rR1uIN-Mes4&app=desktop)
+UK Netflix Title Cards: (https://whatsnewonnetflix.com/usa/new-releases/netflix-usa-may-12-2020)
+UK Netflix Show List
+
+May 5th, 2020
+After finishing the project for my Database Systems course, the Spotify interface that I modified, originally created by Adam Lowenthal (link Adam here), inspired me to base my next project around improving my own HTML,CSS, & JavaScript skills. I decided to do another remake of a famous service so I can focus on implementation instead of getting hung up on creativity.
+

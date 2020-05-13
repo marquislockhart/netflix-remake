@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Netflix</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="../package/css/swiper.min.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <!-- Swiper -->
+    <div class="main-content">
+      <h2>Popular on Netflix</h2>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="/img/blackmirror.jpg" alt="Black Mirror" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/sonicboom.jpg" alt="Sonic Boom" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/lastchanceu.jpg" alt="Last Chance U" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/greysanatomy.jpg" alt="Grey;s Anatomy" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/schittscreek.jpg" alt="Schitt's Creek" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/onmyblock.jpg" alt="On My Block" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/nightonearth.jpg" alt="Night on Earth" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/workinmoms.jpg" alt="Workin' Moms" />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/img/thehealingpowersofdude.jpg"
+              alt="The Healing Powers of Dude"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/img/comediansincarsgettingcoffee.jpg"
+              alt="Comedians in Cars Getting Coffee"
+            />
+          </div>
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <h2>Recently Watched</h2>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="/img/newgirl.jpg" alt="New Girl" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/sonicunderground.jpg" alt="Sonic Underground" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/theoffice.jpg" alt="The Office" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/that70sshow.jpg" alt="That '70s Show" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/bluemountainstate.jpg" alt="Blue Mountain State" />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/img/orangeisthenewblack.jpg"
+              alt="Orange is the New Black"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/weeds.jpg" alt="Weeds" />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/img/fyre.jpg"
+              alt="FYRE: The Greatest Party That Never Happened"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/thegetdown.jpg" alt="The Get Down" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/theinterview.jpg" alt="The Interview" />
+          </div>
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <h2>Anime</h2>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="/img/naruto.jpg" alt="Naruto" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/bleach.jpg" alt="Bleach" />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/img/pokemonindigoleague.jpg"
+              alt="Pokemon Indigo League"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/sonicX.jpg" alt="Sonic X" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/jjba.jpg" alt="Jojo's Bizarre Adventure" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/haikyu!!.jpg" alt="Haikyu!!" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/yugioh.jpg" alt="Yu-Gi-Oh" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/hunterxhunter.jpg" alt="Hunter X Hunter" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/saikik.jpg" alt="Saiki K." />
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/attackontitan.jpg" alt="Attack on Titan" />
+          </div>
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="../package/js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        slidesPerView: 6,
+        spaceBetween: 10,
+        slidesPerGroup: 2,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
